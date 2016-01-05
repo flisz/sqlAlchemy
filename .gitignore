@@ -1,0 +1,6 @@
+.idea/
+*.db
+.vagrant/
+.vagrant.d/
+*.pyc
+*.bak
