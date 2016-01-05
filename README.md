@@ -4,6 +4,15 @@ This is where i get started with SQL Alchemy
 Howto get started with this repo
 --------------------------------
 
+0) set up your python (virtual) environment
+
+install sqlalchemy and sqlalchemy-migrate, you will also need psychopg
+
+```
+pip install SQLAlchemy sqlalchemy-migrate
+sudo apt-get install python-psycopg2
+```
+
 1) startup PostgreSQL with Vagrant
 
 ```
@@ -50,5 +59,7 @@ PostgreSQL.
 - The __Vagrantfile__ is the PostgreSQL provided virtualized
 PostgreSQL setup for development.
 - __sql_alchemy__ folder is the db schema versioning rumblings stuff
+based on [this tutorial](http://sqlalchemy-migrate.readthedocs.org/en/v0.7.2/versioning.html)
 - __sqlalchemy_*.py__ scripts are simple sample scripts playing with the
   declarative system, nothing to do with the sql_alchemy repo
+ [from the tutorial](http://pythoncentral.io/introductory-tutorial-python-sqlalchemy/)
